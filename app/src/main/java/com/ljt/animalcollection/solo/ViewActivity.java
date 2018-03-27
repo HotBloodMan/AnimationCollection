@@ -2,6 +2,7 @@ package com.ljt.animalcollection.solo;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
+import android.animation.PropertyValuesHolder;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -22,6 +23,7 @@ public class ViewActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view);
         initView();
+//        PropertyValuesHolder
     }
     private void initView() {
         tv = (TextView) findViewById(R.id.tv_solo);

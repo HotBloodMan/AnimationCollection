@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.ljt.animalcollection">
+    package="com.ljt.animalcollection">
 
     <application
         android:allowBackup="true"
@@ -8,26 +8,38 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".artsearch.MainActivity">
+        <activity android:name=".artsearch.MainActivity" />
+        <activity android:name=".artsearch.TestActivity" />
+        <activity android:name=".artsearch.DemoActivity_1" />
+        <activity android:name=".artsearch.DemoActivity_2" />
+        <activity android:name=".solo.ViewActivity" />
+        <activity android:name=".solo.set.SetAnimActivity" />
+        <activity android:name=".solo.valueanimator.ValueActivity" />
+        <activity android:name=".solo.object.ObjectActivity" />
+        <activity android:name=".solo.proper.PropertyActivity" />
+        <activity
+            android:name=".solo.windowtransition.WindowTransitionActivity"
+            android:label="@string/label_window_content_transitions"
+            android:theme="@style/AppTheme.NoActionBar">
+
         </activity>
-        <activity android:name=".artsearch.TestActivity">
-        </activity>
-        <activity android:name=".artsearch.DemoActivity_1">
-        </activity>
-        <activity android:name=".artsearch.DemoActivity_2">
-        </activity>
-        <activity android:name=".solo.ViewActivity">
-        </activity>
-        <activity android:name=".solo.set.SetAnimActivity">
-        </activity>
-        <activity android:name=".solo.valueanimator.ValueActivity">
-        </activity>
-        <activity android:name=".solo.object.ObjectActivity">
-        </activity>
-        <activity android:name=".solo.proper.PropertyActivity">
+        <activity
+            android:name=".solo.windowtransition.TransitionActivity"
+            android:label="@string/label_window_content_transitions"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".solo.windowtransition.MorphTransitionsActivity"
+            android:label="@string/label_morph_transitions"
+            android:theme="@style/AppTheme.ActionBar"
+            />
+        <activity android:name=".solo.windowtransition.PopupActivity"
+            android:theme="@style/TranslucentActivity"
+            />
+        <activity android:name=".solo.windowtransition.MainAnimalActivity"
+            android:theme="@style/AppTheme.ActionBar"
+            >
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>

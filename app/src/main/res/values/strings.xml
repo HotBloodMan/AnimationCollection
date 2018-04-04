@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">AnimationCollection</string>
+
+
+    <!-- Activity Window Transitions Activity -->
+    <string name="text_fade_fast">Fade fast</string>
+    <string name="text_fade_slow">Fade slow</string>
+    <string name="text_slide_right">Slide right</string>
+    <string name="text_slide_bottom">Slide bottom</string>
+    <string name="text_explode">Explode</string>
+    <string name="text_explode_bounce">Explode bounce</string>
+
+    <!-- General Messages -->
+    <string name="text_hipster_ipsum_longer">Gluten-free echo park bushwick kinfolk flannel poutine. Selvage fanny pack banjo, actually distillery ethical organic put a bird on it art party. Letterpress distillery tilde +1 blog, cray green juice crucifix hella meditation.</string>
+
+    <string name="label_window_content_transitions">Window Content</string>
+
+    <!-- Morph transitions actibity -->
+    <string name="text_morph_me">Morph me!</string>
+
+    <!-- Object Animator Activity -->
+    <string name="text_hipster_ipsum">Gluten-free echo park bushwick kinfolk flannel poutine. Selvage fanny pack banjo, actually distillery ethical organic put a bird on it art party. Letterpress distillery tilde +1 blog, cray green juice crucifix hella meditation. Master cleanse brunch wayfarers, freegan schlitz williamsburg chambray selvage flannel kickstarter 90\'s distillery direct trade jean shorts. Pickled VHS wolf, fingerstache asymmetrical shabby chic YOLO tote bag bushwick kombucha williamsburg. Chambray letterpress cliche lo-fi, blue bottle bespoke poutine neutra thundercats cardigan gluten-free franzen distillery tofu. Kale chips taxidermy brooklyn, street art etsy raw denim art party butcher chartreuse truffaut.</string>
+
+
+    <string name="transition_morph_view" translatable="false">morph_view_transition</string>
+
+
+    <string name="label_morph_transitions">Morph transitions</string>
+    <string name="content_description_image_smile_emoticon">Smile emotion</string>
+    <string name="text_ok_go_now">OK, you can go now</string>
+    <string name="text_hello_message">Think of all the great things you could use this transition for!</string>
+
 </resources>

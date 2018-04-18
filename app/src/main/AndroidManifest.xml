@@ -27,16 +27,19 @@
             android:name=".solo.windowtransition.TransitionActivity"
             android:label="@string/label_window_content_transitions"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".solo.windowtransition.MorphTransitionsActivity"
-            android:label="@string/label_morph_transitions"
-            android:theme="@style/AppTheme.ActionBar"
-            />
-        <activity android:name=".solo.windowtransition.PopupActivity"
-            android:theme="@style/TranslucentActivity"
-            />
+        <!--<activity android:name=".solo.windowtransition.MorphTransitionsActivity"-->
+            <!--android:label="@string/label_morph_transitions"-->
+            <!--android:theme="@style/AppTheme.ActionBar"-->
+            <!--/>-->
+        <!--<activity android:name=".solo.windowtransition.PopupActivity"-->
+            <!--android:theme="@style/TranslucentActivity"-->
+            <!--/>-->
         <activity android:name=".solo.windowtransition.MainAnimalActivity"
             android:theme="@style/AppTheme.ActionBar"
             >
+
+        </activity>
+        <activity android:name=".solo.object2.Test2Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

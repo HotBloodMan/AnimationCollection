@@ -28,7 +28,7 @@ public class MainAnimalActivity extends AppCompatActivity implements View.OnClic
         switch (v.getId()){
 
             case R.id.btn_anim_morph:
-               startIntents(MorphTransitionsActivity.class);
+//               startIntents(MorphTransitionsActivity.class);
                 break;
 
         }

@@ -40,8 +40,8 @@ public class TransitionActivity extends AppCompatActivity {
                 getWindow().setEnterTransition(transitionFadeFast);
                 break;
             case TRANSITION_SLIDE_RIGHT:
-                Transition transitionSlideRight= TransitionInflater.from(this).inflateTransition(R.transition.slide_right);
-                getWindow().setEnterTransition(transitionSlideRight);
+//                Transition transitionSlideRight= TransitionInflater.from(this).inflateTransition(R.transition.slide_right);
+//                getWindow().setEnterTransition(transitionSlideRight);
                 break;
         }
         setSupportActionBar(mToolbar);
